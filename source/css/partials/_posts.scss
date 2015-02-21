@@ -1,0 +1,21 @@
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+  padding: 0 1em;
+
+  li {
+    margin: .1em;
+  }
+}
+
+.posts__date {
+  font-family: $monospace-font-family;
+  margin-right: 1em;
+}
+
+.posts__feed {
+  color: #888;
+  float: right;
+  font-size: .9em;
+  padding: 0 .4em;
+}

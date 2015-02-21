@@ -1,0 +1,42 @@
+.about__intro {
+  @include clearfix;
+}
+
+.about__gravatar-image {
+  border-radius: .5em;
+  display: block;
+  float: none;
+  height: auto;
+  margin: 0 auto 1em;
+  max-width: 80%;
+
+
+  @media (min-width: 600px) {
+    float: left;
+    height: 300px;
+    margin: 0 2em 0 0;
+    width: 300px;
+  }
+}
+
+.about__links {
+  padding: 0;
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    left: 1em;
+    margin: 0 1.3em;
+    position: relative;
+  }
+
+  @media (min-width: 400px) {
+    text-align: center;
+
+    li {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+---
+---
+
+* {
+  box-sizing: border-box;
+}
+
+@import 'vendor/normalize';
+
+@import 'modules/variables';
+@import 'modules/clearfix';
+
+@import 'partials/base';
+@import 'partials/typography';
+@import 'partials/pre';
+
+@import 'partials/layout';
+@import 'partials/post';
+@import 'partials/posts';
+
+@import 'partials/site-header';
+@import 'partials/site-header-animation';
+
+@import 'partials/about';
+
+.content {
+  padding: 0.6em;
+}
