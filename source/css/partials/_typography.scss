@@ -1,12 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans|PT+Mono);
 
-* {
-  color: $text-colour;
-}
-
 html {
-  font-family: $font-family;
-  font-size: 1.1em;
+  font: 300 15px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 a,
@@ -14,14 +9,13 @@ p {
   line-height: 1.6em;
 }
 
+$link-colour: #888;
+$link-colour-lt: lighten($link-colour, 7);
+
 a {
   color: $link-colour;
+  font-weight: 400;
   text-decoration: none;
-}
-
-a:hover {
-  color: lighten($link-colour, 7);
-  text-decoration: underline;
 }
 
 h1,
@@ -30,13 +24,22 @@ h3,
 h4,
 h5,
 h6 {
+  color: $link-colour;
   margin: 0;
-  // Fix the character spacing for headings
   text-rendering: optimizeLegibility;
 }
 
-pre,
-code {
-  font-family: $monospace-font-family;
-  font-size: .91em;
+.content {
+  a:hover {
+    color: $link-colour-lt;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 200;
+  }
 }

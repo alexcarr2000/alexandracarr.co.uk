@@ -10,11 +10,14 @@
   <link rel="canonical" href="<%= site_url %><%= current_page.url %>">
 </head>
 <body>
-  <%= partial 'header' %>
 
-  <div class="content">
-    <%= yield %>
-  </div>
+  <article class="everything">
+    <%= partial 'nav_menu' %>
+
+    <section class="content">
+      <%= yield %>
+    </section>
+  </article>
 
   <%= stylesheet_link_tag 'main' %>
   <%= javascript_include_tag  'main' %>

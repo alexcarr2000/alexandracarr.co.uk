@@ -1,0 +1,47 @@
+.phi {
+  color: lighten($link-colour, 16);
+  font-family: serif;
+  font-size: 100px;
+  line-height: 1em;
+  margin: 15px 0 0;
+}
+
+.nav-menu {
+  margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+
+  h1,
+  a {
+    font-weight: 200;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 120%;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 120%;
+  }
+}
+
+.nav-menu__nav {
+  a {
+    display: inline-block;
+    margin: 4px;
+  }
+}
+
+@media ($wide) {
+  .nav-menu__nav {
+    text-align: left;
+
+    a {
+      display: block;
+      padding-left: 10px;
+    }
+  }
+}
