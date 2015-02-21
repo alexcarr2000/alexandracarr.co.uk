@@ -16,6 +16,7 @@ set :images_dir, 'images'
 set :partials_dir, 'partials'
 
 set :relative_links, true
+activate :relative_assets
 
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true,
@@ -24,7 +25,6 @@ set :markdown, fenced_code_blocks: true,
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :relative_assets
   set :enviroment, :production
 end
 

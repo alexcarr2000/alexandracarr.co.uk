@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="<%= description %>">
   <link rel="canonical" href="<%= site_url %><%= current_page.url %>">
+  <%= stylesheet_link_tag 'main' %>
 </head>
 <body>
 
@@ -19,8 +20,7 @@
     </section>
   </article>
 
-  <%= stylesheet_link_tag 'main' %>
-  <%= javascript_include_tag  'main' %>
+  <%= javascript_include_tag 'main' %>
   <%= partial 'tracking' %>
 </body>
 </html>
