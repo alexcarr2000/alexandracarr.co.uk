@@ -15,6 +15,8 @@ set :js_dir, 'js'
 set :images_dir, 'images'
 set :partials_dir, 'partials'
 
+set :relative_links, true
+
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true,
                smartypants: true
