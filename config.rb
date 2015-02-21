@@ -26,4 +26,5 @@ configure :build do
   set :enviroment, :production
 end
 
+activate :directory_indexes
 # page 'feed.xml', layout: false
