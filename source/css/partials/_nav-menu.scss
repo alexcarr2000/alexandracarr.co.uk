@@ -7,7 +7,6 @@
 }
 
 .nav-menu {
-  margin-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 
@@ -33,6 +32,11 @@
     display: inline-block;
     margin: 4px;
   }
+}
+
+.nav-menu__social-icons {
+  font-size: 1.5em;
+  margin-top: 10px;
 }
 
 @media ($wide) {
