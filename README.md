@@ -24,9 +24,3 @@ Copy `aws.example.yml` to `aws.yml` and fill in the details *in that file*.
 `middleman server` to preview.
 
 `middleman build && middleman s3_sync` to deploy.
-
-## Notes
-
-[AWS S3 static site hosting](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html)
-
-[AWS S3 manipulation through fog](http://fog.io/storage/)
