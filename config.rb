@@ -1,4 +1,15 @@
+# Variables
+
+set :site_url, 'http://www.alexandracarr.co.uk'
+set :title, 'Alexandra Carr'
+set :description, 'Sculptor and Artist'
+
+# Config
+
 set :enviroment, :development
+
+require './helpers.rb'
+helpers CustomHelpers
 
 activate :livereload,
          host: 'localhost',
@@ -6,13 +17,8 @@ activate :livereload,
          apply_css_live: false,
          no_swf: true
 
-set :site_url, 'http://www.alexandracarr.co.uk'
-set :title, 'Alexandra Carr'
-set :description, 'Sculptor and Artist'
-
 set :css_dir, 'css'
 set :js_dir, 'js'
-set :images_dir, 'images'
 set :partials_dir, 'partials'
 
 set :relative_links, true
