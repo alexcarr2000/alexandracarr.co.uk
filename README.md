@@ -19,6 +19,8 @@ What                                                  | For
 
 ## Use
 
+`bundle` to install deps.
+
 Copy `aws.example.yml` to `aws.yml` and fill in the details *in that file*.
 
 `middleman server` to preview.
