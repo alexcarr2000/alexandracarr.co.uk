@@ -13,6 +13,8 @@ $wide: 'min-width: 700px';
 }
 
 @media ($wide) {
+  $nav-width: 270;
+
   .nav-menu,
   .content {
     position: absolute;
@@ -20,11 +22,11 @@ $wide: 'min-width: 700px';
 
   .nav-menu {
     left: 0;
-    width: 250px;
+    width: $nav-width;
   }
 
   .content {
-    $inset: 265px;
+    $inset: $nav-width + 15px;
     left: $inset;
     width: calc(100% - $inset);
   }
