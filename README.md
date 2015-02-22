@@ -2,13 +2,20 @@
 
 Artist's website.
 
-* [Middleman](https://github.com/middleman/middleman): site compilation
-* [Sass](https://github.com/sass/sass): CSS preprocessor
-* [ImageMagick](http://www.imagemagick.org/) &
-  [MiniMagick](https://github.com/minimagick/minimagick): image resizing
-* [AWS](http://aws.amazon.com/): hosting
-* [Middleman::S3Sync](https://github.com/fredjean/middleman-s3_sync):
-  Deployment
+What                                                  | For
+----------------------------------------------------- | ---
+[Middleman](middleman)                                | site compilation
+[Sass](sass)                                          | styling
+[ImageMagick](imagemagick) & [MiniMagick](minimagick) | image resizing
+[AWS](aws)                                            | hosting
+[Middleman::S3Sync](s3sync)                           | deployment
+
+[middleman]: https://github.com/middleman/middleman
+[sass]: https://github.com/sass/sass
+[imagemagick]: http://www.imagemagick.org/
+[minimagick]: https://github.com/minimagick/minimagick
+[aws]: http://aws.amazon.com/
+[s3sync]: https://github.com/fredjean/middleman-s3_sync
 
 ## Use
 
