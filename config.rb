@@ -1,14 +1,13 @@
-# Variables
+require 'yaml'
+require 'lib/custom_helpers'
+require 'lib/projects'
 
 set :site_url, 'http://www.alexandracarr.co.uk'
 set :title, 'Alexandra Carr'
 set :description, 'Sculptor and Artist'
 
-# Config
-
 set :enviroment, :development
 
-require './helpers.rb'
 helpers CustomHelpers
 
 activate :livereload,
@@ -51,5 +50,19 @@ if ARGV.first == 's3_sync'
     s3.delete                = true
     s3.after_build           = false
     s3.prefer_gzip           = true
+  end
+end
+
+galleries = Galleries.all
+set :galleries, galleries
+
+galleries.each.with_index do |gallery|
+  title = gallery['title']
+
+  gallery['items'].each.with_index do |item, i|
+    proxy "/gallery/#{title}/#{i}.html".downcase,
+          '/templates/item.html',
+          locals: item,
+          ignore: true
   end
 end
