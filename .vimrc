@@ -1,1 +1,1 @@
-set wildignore+=*/build/*
+set wildignore+=*/build/*,*.png,*.jpg
