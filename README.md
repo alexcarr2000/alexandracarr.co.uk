@@ -7,6 +7,8 @@ Artist's website.
 * [ImageMagick](http://www.imagemagick.org/) &
   [MiniMagick](https://github.com/minimagick/minimagick): image resizing
 * [AWS](http://aws.amazon.com/): hosting
+* [Middleman::S3Sync](https://github.com/fredjean/middleman-s3_sync):
+  Deployment
 
 ## Notes
 

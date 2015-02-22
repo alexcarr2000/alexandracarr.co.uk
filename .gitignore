@@ -1,4 +1,6 @@
 *.swp
+aws.yml
+*aws.yml*
 .DS_Store
 /.bundle
 /.cache

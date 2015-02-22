@@ -8,4 +8,4 @@ gem 'sass', '~> 3.4.12'
 
 gem 'mini_magick'
 
-# gem 'middleman-s3_sync', '~> 3.0.41'
+gem 'middleman-s3_sync', '~> 3.0.41'
