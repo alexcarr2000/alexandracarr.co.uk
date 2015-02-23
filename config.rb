@@ -38,6 +38,8 @@ activate :directory_indexes
 # page 'feed.xml', layout: false
 
 if ARGV.first == 's3_sync'
+  `middleman build`
+
   require 'yaml'
   aws = YAML.load_file 'aws.yml'
 
