@@ -37,15 +37,17 @@ end
 activate :directory_indexes
 # page 'feed.xml', layout: false
 
-require 'yaml'
-aws = YAML.load_file 'aws.yml'
+if ARGV.first == 's3_sync'
+  require 'yaml'
+  aws = YAML.load_file 'aws.yml'
 
-activate :s3_sync do |s3|
-  s3.bucket                = 'www.alexandracarr.co.uk'
-  s3.region                = 'eu-west-1'
-  s3.aws_access_key_id     = aws['key']
-  s3.aws_secret_access_key = aws['secret']
-  s3.delete                = true
-  s3.after_build           = false
-  s3.prefer_gzip           = true
+  activate :s3_sync do |s3|
+    s3.bucket                = 'www.alexandracarr.co.uk'
+    s3.region                = 'eu-west-1'
+    s3.aws_access_key_id     = aws['key']
+    s3.aws_secret_access_key = aws['secret']
+    s3.delete                = true
+    s3.after_build           = false
+    s3.prefer_gzip           = true
+  end
 end
