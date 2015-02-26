@@ -3,17 +3,15 @@
 require 'mini_magick'
 
 abort 'Pass files to resize as args' if ARGV.empty?
-abort '`thumbnail_images` dir already exists.' if Dir.exist? 'thumbnail_images'
-Dir.mkdir 'resized_images'
 
 images = ARGV.select do |file|
   file.match(/\.(jpg|jpeg|png)\z/)
 end
 
+THUMB_SIZE = 100
+
 images.each do |path|
   puts path
-
-  THUMB_SIZE = 100
 
   file = MiniMagick::Image.open path
   file.combine_options do |c|
@@ -25,5 +23,5 @@ images.each do |path|
     c.crop "#{THUMB_SIZE}x#{THUMB_SIZE}+0+0"
   end
 
-  image.write 'thumbnail_images/' + File.basename(path)
+  file.write path.split('.').insert(-2, '-thumb.').join
 end

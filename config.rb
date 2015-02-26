@@ -16,6 +16,7 @@ activate :livereload,
          apply_css_live: false,
          no_swf: true
 
+set :image_dir, ''
 set :css_dir, 'css'
 set :js_dir, 'js'
 set :partials_dir, 'partials'
@@ -60,9 +61,12 @@ galleries.each.with_index do |gallery|
   title = gallery['title']
 
   gallery['items'].each.with_index do |item, i|
+    locals = item.merge(
+      parent: title
+    )
     proxy "/gallery/#{title}/#{i}.html".downcase,
           '/templates/item.html',
-          locals: item,
+          locals: locals,
           ignore: true
   end
 end

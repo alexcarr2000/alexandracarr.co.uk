@@ -1,59 +1,59 @@
 ---
 title: Drawings
 items:
-  - image: drawing-alex-carr-a-common-gaze.jpg
-    thumb: drawing-alex-carr-a-common-gaze-thumb.jpg
-  - image: drawing-alex-carr-a-gentle-spin.jpg
-    thumb: drawing-alex-carr-a-gentle-spin-thumb.jpg
-  - image: drawing-alex-carr-a-gentle-sway.jpg
-    thumb: drawing-alex-carr-a-gentle-sway-thumb.jpg
-  - image: drawing-alex-carr-circular-concentric-motion.jpg
-    thumb: drawing-alex-carr-circular-concentric-motion-thumb.jpg
-  - image: drawing-alex-carr-collisions.jpg
-    thumb: drawing-alex-carr-collisions-thumb.jpg
-  - image: drawing-alex-carr-concentric-circles.jpg
-    thumb: drawing-alex-carr-concentric-circles-thumb.jpg
-  - image: drawing-alex-carr-contrary-motion.jpg
-    thumb: drawing-alex-carr-contrary-motion-thumb.jpg
-  - image: drawing-alex-carr-critical-moment.jpg
-    thumb: drawing-alex-carr-critical-moment-thumb.jpg
-  - image: drawing-alex-carr-faded-orbit.jpg
-    thumb: drawing-alex-carr-faded-orbit-thumb.jpg
-  - image: drawing-alex-carr-frustrated-system.jpg
-    thumb: drawing-alex-carr-frustrated-system-thumb.jpg
-  - image: drawing-alex-carr-impact.jpg
-    thumb: drawing-alex-carr-impact-thumb.jpg
-  - image: drawing-alex-carr-in-flux.jpg
-    thumb: drawing-alex-carr-in-flux-thumb.jpg
-  - image: drawing-alex-carr-interaction.jpg
-    thumb: drawing-alex-carr-interaction-thumb.jpg
-  - image: drawing-alex-carr-interference.jpg
-    thumb: drawing-alex-carr-interference-thumb.jpg
-  - image: drawing-alex-carr-interrupted-direction.jpg
-    thumb: drawing-alex-carr-interrupted-direction-thumb.jpg
-  - image: drawing-alex-carr-mirror-fields.jpg
-    thumb: drawing-alex-carr-mirror-fields-thumb.jpg
-  - image: drawing-alex-carr-offest.jpg
-    thumb: drawing-alex-carr-offest-thumb.jpg
-  - image: drawing-alex-carr-pulses.jpg
-    thumb: drawing-alex-carr-pulses-thumb.jpg
-  - image: drawing-alex-carr-puncture.jpg
-    thumb: drawing-alex-carr-puncture-thumb.jpg
-  - image: drawing-alex-carr-regular-intervals.jpg
-    thumb: drawing-alex-carr-regular-intervals-thumb.jpg
-  - image: drawing-alex-carr-simple-order-of-array.jpg
-    thumb: drawing-alex-carr-simple-order-of-array-thumb.jpg
-  - image: drawing-alex-carr-sister-orbits.jpg
-    thumb: drawing-alex-carr-sister-orbits-thumb.jpg
-  - image: drawing-alex-carr-swarm.jpg
-    thumb: drawing-alex-carr-swarm-thumb.jpg
-  - image: drawing-alex-carr-temperature.jpg
-    thumb: drawing-alex-carr-temperature-thumb.jpg
-  - image: drawing-alex-carr-the-elegant-code.jpg
-    thumb: drawing-alex-carr-the-elegant-code-thumb.jpg
-  - image: drawing-alex-carr-threshold.jpg
-    thumb: drawing-alex-carr-threshold-thumb.jpg
-  - image: drawing-alex-carr-underlying-structure.jpg
-    thumb: drawing-alex-carr-underlying-structure-thumb.jpg
-  - image: drawing-alex-carr-where-fields-meet.jpg
-    thumb: drawing-alex-carr-where-fields-meet-thumb.jpg
+  - image: drawings/drawing-alex-carr-a-common-gaze.jpg
+    thumb: drawings/drawing-alex-carr-a-common-gaze-thumb.jpg
+  - image: drawings/drawing-alex-carr-a-gentle-spin.jpg
+    thumb: drawings/drawing-alex-carr-a-gentle-spin-thumb.jpg
+  - image: drawings/drawing-alex-carr-a-gentle-sway.jpg
+    thumb: drawings/drawing-alex-carr-a-gentle-sway-thumb.jpg
+  - image: drawings/drawing-alex-carr-circular-concentric-motion.jpg
+    thumb: drawings/drawing-alex-carr-circular-concentric-motion-thumb.jpg
+  - image: drawings/drawing-alex-carr-collisions.jpg
+    thumb: drawings/drawing-alex-carr-collisions-thumb.jpg
+  - image: drawings/drawing-alex-carr-concentric-circles.jpg
+    thumb: drawings/drawing-alex-carr-concentric-circles-thumb.jpg
+  - image: drawings/drawing-alex-carr-contrary-motion.jpg
+    thumb: drawings/drawing-alex-carr-contrary-motion-thumb.jpg
+  - image: drawings/drawing-alex-carr-critical-moment.jpg
+    thumb: drawings/drawing-alex-carr-critical-moment-thumb.jpg
+  - image: drawings/drawing-alex-carr-faded-orbit.jpg
+    thumb: drawings/drawing-alex-carr-faded-orbit-thumb.jpg
+  - image: drawings/drawing-alex-carr-frustrated-system.jpg
+    thumb: drawings/drawing-alex-carr-frustrated-system-thumb.jpg
+  - image: drawings/drawing-alex-carr-impact.jpg
+    thumb: drawings/drawing-alex-carr-impact-thumb.jpg
+  - image: drawings/drawing-alex-carr-in-flux.jpg
+    thumb: drawings/drawing-alex-carr-in-flux-thumb.jpg
+  - image: drawings/drawing-alex-carr-interaction.jpg
+    thumb: drawings/drawing-alex-carr-interaction-thumb.jpg
+  - image: drawings/drawing-alex-carr-interference.jpg
+    thumb: drawings/drawing-alex-carr-interference-thumb.jpg
+  - image: drawings/drawing-alex-carr-interrupted-direction.jpg
+    thumb: drawings/drawing-alex-carr-interrupted-direction-thumb.jpg
+  - image: drawings/drawing-alex-carr-mirror-fields.jpg
+    thumb: drawings/drawing-alex-carr-mirror-fields-thumb.jpg
+  - image: drawings/drawing-alex-carr-offest.jpg
+    thumb: drawings/drawing-alex-carr-offest-thumb.jpg
+  - image: drawings/drawing-alex-carr-pulses.jpg
+    thumb: drawings/drawing-alex-carr-pulses-thumb.jpg
+  - image: drawings/drawing-alex-carr-puncture.jpg
+    thumb: drawings/drawing-alex-carr-puncture-thumb.jpg
+  - image: drawings/drawing-alex-carr-regular-intervals.jpg
+    thumb: drawings/drawing-alex-carr-regular-intervals-thumb.jpg
+  - image: drawings/drawing-alex-carr-simple-order-of-array.jpg
+    thumb: drawings/drawing-alex-carr-simple-order-of-array-thumb.jpg
+  - image: drawings/drawing-alex-carr-sister-orbits.jpg
+    thumb: drawings/drawing-alex-carr-sister-orbits-thumb.jpg
+  - image: drawings/drawing-alex-carr-swarm.jpg
+    thumb: drawings/drawing-alex-carr-swarm-thumb.jpg
+  - image: drawings/drawing-alex-carr-temperature.jpg
+    thumb: drawings/drawing-alex-carr-temperature-thumb.jpg
+  - image: drawings/drawing-alex-carr-the-elegant-code.jpg
+    thumb: drawings/drawing-alex-carr-the-elegant-code-thumb.jpg
+  - image: drawings/drawing-alex-carr-threshold.jpg
+    thumb: drawings/drawing-alex-carr-threshold-thumb.jpg
+  - image: drawings/drawing-alex-carr-underlying-structure.jpg
+    thumb: drawings/drawing-alex-carr-underlying-structure-thumb.jpg
+  - image: drawings/drawing-alex-carr-where-fields-meet.jpg
+    thumb: drawings/drawing-alex-carr-where-fields-meet-thumb.jpg

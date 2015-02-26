@@ -1,0 +1,14 @@
+---
+title: Gallery
+---
+<h1><%= current_page.data.title %><h1>
+
+<% galleries.each do |gallery| %>
+  <h2><%= gallery['title'] %></h2>
+
+  <% gallery['items'].each.with_index do |item, i| %>
+    <a href="<%= "#{gallery['title']}/#{i}".downcase %>">
+      <%= ext_image item['thumb'] %>
+    </a>
+  <% end %>
+<% end %>
