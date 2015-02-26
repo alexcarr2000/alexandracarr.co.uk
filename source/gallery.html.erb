@@ -7,7 +7,7 @@ title: Gallery
   <h2><%= gallery['title'] %></h2>
 
   <% gallery['items'].each.with_index do |item, i| %>
-    <a href="/gallery/<%="#{gallery['title']}/#{i}".downcase %>" class="thumb">
+    <a href="/gallery/<%="#{gallery['path']}/#{i}" %>" class="thumb">
       <%= ext_image item['thumb'] %>
     </a>
   <% end %>

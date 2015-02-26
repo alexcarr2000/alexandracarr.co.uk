@@ -60,14 +60,17 @@ set :galleries, galleries
 galleries.each.with_index do |gallery|
   title = gallery['title']
   count = gallery['items'].size
+  path = title.downcase.gsub(' ', '-')
+  gallery['path'] = path
 
   gallery['items'].each.with_index do |item, i|
     locals = item.merge(
       parent: title,
+      parent_path: path,
       count: count,
       index: i
     )
-    proxy "/gallery/#{title}/#{i}.html".downcase,
+    proxy "/gallery/#{path}/#{i}.html".downcase,
           '/templates/item.html',
           locals: locals,
           ignore: true
