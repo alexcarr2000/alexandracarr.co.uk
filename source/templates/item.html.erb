@@ -4,8 +4,8 @@
 
 <nav class="gallery__nav">
   <% if index > 0 %>
-    <a href="0">First</a>
-    <a href="<%= index - 1 %>">Previous</a>
+    <a href="/gallery/<%= parent.downcase %>/0">First</a>
+    <a href="/gallery/<%= parent.downcase %>/<%= index - 1 %>">Previous</a>
   <% else %>
     <span>First</span>
     <span>Previous</span>
@@ -16,8 +16,8 @@
   </span>
 
   <% if index < count - 1 %>
-    <a href="<%= index + 1 %>">Next</a>
-    <a href="<%= count %>">Last</a>
+    <a href="/gallery/<%= parent.downcase %>/<%= index + 1 %>">Next</a>
+    <a href="/gallery/<%= parent.downcase %>/<%= count %>">Last</a>
   <% else %>
     <span>Next</span>
     <span>Last</span>
