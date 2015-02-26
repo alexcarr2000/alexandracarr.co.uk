@@ -59,10 +59,13 @@ set :galleries, galleries
 
 galleries.each.with_index do |gallery|
   title = gallery['title']
+  count = gallery['items'].size
 
   gallery['items'].each.with_index do |item, i|
     locals = item.merge(
-      parent: title
+      parent: title,
+      count: count,
+      index: i
     )
     proxy "/gallery/#{title}/#{i}.html".downcase,
           '/templates/item.html',
