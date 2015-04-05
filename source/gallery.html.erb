@@ -1,14 +1,20 @@
 ---
 title: Gallery
 ---
-<h1><%= current_page.data.title %><h1>
+<h1><%= current_page.data.title %></h1>
 
 <% galleries.each do |gallery| %>
-  <h2><%= gallery['title'] %></h2>
+  <div class="gallery__overview">
+    <h2><%= gallery['title'] %></h2>
 
-  <% gallery['items'].each.with_index do |item, i| %>
-    <a href="/gallery/<%="#{gallery['path']}/#{i}" %>" class="thumb">
-      <%= ext_image item['thumb'] %>
-    </a>
-  <% end %>
+    <% if gallery['description'] %>
+      <p><%= gallery['description'] %></p>
+    <% end %>
+
+    <% gallery['items'].each.with_index do |item, i| %>
+      <a href="/gallery/<%="#{gallery['path']}/#{i}" %>" class="thumb">
+        <%= ext_image item['thumb'] %>
+      </a>
+    <% end %>
+  </div>
 <% end %>
