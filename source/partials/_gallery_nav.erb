@@ -1,0 +1,21 @@
+<nav class="gallery__nav">
+  <% if index > 0 %>
+    <a href="/gallery/<%= parent_path %>/0">First</a>
+    <a href="/gallery/<%= parent_path %>/<%= index - 1 %>">Previous</a>
+  <% else %>
+    <span>First</span>
+    <span>Previous</span>
+  <% end %>
+
+  <span class="gallery__position">
+    <%= index + 1 %> of <%= count %>
+  </span>
+
+  <% if index < count - 1 %>
+    <a href="/gallery/<%= parent_path %>/<%= index + 1 %>">Next</a>
+    <a href="/gallery/<%= parent_path %>/<%= count %>">Last</a>
+  <% else %>
+    <span>Next</span>
+    <span>Last</span>
+  <% end %>
+<nav>
