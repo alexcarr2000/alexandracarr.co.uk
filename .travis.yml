@@ -1,0 +1,5 @@
+language: ruby
+script: bundle exec middleman build
+
+notifications:
+  email: false
